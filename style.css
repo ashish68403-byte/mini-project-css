@@ -61,7 +61,8 @@
     margin-top: 6px;
     padding: 10px 20px;
 }
-.sidebar_menu .menu i,a {
+.sidebar_menu .menu i,
+.sidebar_menu .menu a {
     color: white;
     text-decoration: none;
     font-size: 20px;
