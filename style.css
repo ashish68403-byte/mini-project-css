@@ -103,3 +103,55 @@
 #check:checked ~ .btn_one i {
     opacity: 0;
 }
+
+@media (max-width: 768px) {
+    .sidebar_menu {
+        width: 240px; 
+        left: -240px; 
+    }
+
+    .sidebar_menu .logo a {
+        font-size: 40px; 
+        left: 40px;
+    }
+
+    .sidebar_menu .menu i, 
+    .sidebar_menu .menu a {
+        font-size: 18px;
+    }
+
+    .sidebar_menu .btn_two i {
+        left: 215px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar_menu {
+        width: 200px; 
+        left: -200px;
+    }
+
+    .btn_one i {
+        font-size: 24px; 
+        left: 12px;
+    }
+
+    .sidebar_menu .logo a {
+        font-size: 28px;
+        left: 30px;
+        top: 15px;
+    }
+
+    .sidebar_menu .menu i, 
+    .sidebar_menu .menu a {
+        font-size: 16px; 
+    }
+
+    .sidebar_menu .btn_two i {
+        left: 175px;
+    }
+
+    .sidebar_menu .social_media {
+        left: 20%; 
+    }
+}
