@@ -48,7 +48,8 @@
     font-size: 25px;
     line-height: 60px;
     position: absolute;
-    left: 275px;
+    right: 15px;
+    left: auto;
     cursor: pointer;
     transition: all 0.3s linear;
 }
@@ -128,8 +129,8 @@
 
 @media (max-width: 480px) {
     .sidebar_menu {
-        width: 200px; 
-        left: -200px;
+        width: 100%; 
+        left: -100%;
     }
 
     .btn_one i {
@@ -139,7 +140,7 @@
 
     .sidebar_menu .logo a {
         font-size: 28px;
-        left: 30px;
+        left: 20px;
         top: 15px;
     }
 
@@ -153,28 +154,30 @@
     }
 
     .sidebar_menu .social_media {
-        left: 20%; 
+        left: 20%;
+        width: 100%;
+        text-align: center; 
     }
 }
 
 @media (max-width: 400px) {
     .sidebar_menu {
-        width: 100%;     /* Full screen overlay */
-        left: -100%;     /* Hide completely */
+        width: 100%;     
+        left: -100%;     
     }
 
     .sidebar_menu .btn_two i {
-        left: 90%;       /* Keep close button inside */
+        left: 90%;      
     }
 
     .sidebar_menu .logo a {
-        font-size: 24px; /* Smaller logo */
+        font-size: 24px; 
         left: 20px;
         top: 15px;
     }
 
     .sidebar_menu .menu i, 
     .sidebar_menu .menu a {
-        font-size: 14px; /* Smaller text/icons */
+        font-size: 14px; 
     }
 }
