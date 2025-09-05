@@ -156,3 +156,25 @@
         left: 20%; 
     }
 }
+
+@media (max-width: 400px) {
+    .sidebar_menu {
+        width: 100%;     /* Full screen overlay */
+        left: -100%;     /* Hide completely */
+    }
+
+    .sidebar_menu .btn_two i {
+        left: 90%;       /* Keep close button inside */
+    }
+
+    .sidebar_menu .logo a {
+        font-size: 24px; /* Smaller logo */
+        left: 20px;
+        top: 15px;
+    }
+
+    .sidebar_menu .menu i, 
+    .sidebar_menu .menu a {
+        font-size: 14px; /* Smaller text/icons */
+    }
+}
